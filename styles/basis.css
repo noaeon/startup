@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.adaptive-width {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.content-block {
+    display: block;
+    color: dimgrey;
+    padding: 75px 0;
+}
+
+.block-title {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.block-line {
+    display: block;
+    height: 2.2px;
+    background-color: grey;
+    width: 55px;
+    margin: 20px auto;
+    border: none;
+}
+
+.block-description {
+    display: block;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .content-block {
+        padding: 50px 0;
+    }
+
+    .block-line {
+        width: 50px;
+        margin: 18px auto;
+        height: 2px;
+    }
+
+    .block-description {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 630px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .content-block {
+        padding: 40px 0;
+    }
+
+    .block-line {
+        width: 45px;
+        margin: 15px auto;
+        height: 1.6px;
+    }
+
+    .block-description {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 1.9rem;
+    }
+
+    h2 {
+        font-size: 0.95rem;
+    }
+
+    h3 {
+        font-size: 0.95rem;
+    }
+
+    .block-line {
+        width: 40px;
+        margin: 12px auto;
+        height: 1.4px;
+    }
+
+    .block-description {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 350px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 0.9rem;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+    }
+}

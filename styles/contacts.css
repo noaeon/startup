@@ -1,0 +1,312 @@
+.contacts-content {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.contacts-categories {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin-right: 2%;
+}
+
+.contacts-category {
+    margin-bottom: 25px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.contacts-mail .contacts-item {
+    flex-direction: column;
+}
+
+.contacts-icon {
+    background-size: 100%;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+}
+
+.contacts-item {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.contacts-item a {
+    display: inline-block;
+    min-width: 30%;
+    font-size: 0.9em;
+    color: dimgrey;
+    margin-bottom: 0;
+    padding-right: 7px;
+    line-height: 1.3;
+}
+
+.contacts-item a:hover {
+    color: rgb(173, 11, 11);
+}
+
+.contacts-title {
+    display: inline-block;
+    color: dimgrey;
+    padding: 2px 0 0 0;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.icon-address {
+    background-image: url("../imgs/cont-icon-geo.png");
+}
+
+.icon-phone {
+    background-image: url("../imgs/cont-icon-phone.png");
+}
+
+.icon-mail {
+    background-image: url("../imgs/cont-icon-mail.png");
+    background-position-y:  -1px;
+}
+
+.contacts-feedback {
+    width: 63%;
+    margin-right: 3%;
+}
+
+.form-fb {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.feedback-field {
+    height: 39px;
+    width: 45%;
+    margin: 0 2% 3% 0;
+    padding-left: 7px;
+    font-size: 0.7rem;
+}
+
+.feedback-field:focus {
+    border: 1px solid rgb(173, 11, 11);
+    outline: none;
+}
+
+.field-usermessage {
+    width: 100%;
+    height: 80px;
+    padding: 7px;
+    font-size: 1rem;
+}
+
+.send-message-button {
+    border: 0.2px solid grey;
+    display: block;
+    height: 39px;
+    width: 25%;
+    outline: none;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 0.7rem;
+}
+
+.send-message-button:hover {
+    cursor: pointer;
+}
+
+.feedback-footnote {
+    display: block;
+    width: 70%;
+    margin: auto 0;
+    font-family: sans-serif;
+    font-size: 0.7em;
+}
+
+@media (max-width: 800px) {
+    .contacts-title {
+        font-size: 0.7em;
+        margin: 0;
+    }
+
+    .contacts-category a {
+        font-size: 0.8rem;
+    }
+
+    .feedback-field {
+        height: 33px;
+        font-size: 0.6rem;
+    }
+
+    .field-usermessage {
+        font-size: 0.9rem;
+        height: 70px;
+    }
+
+    .send-message-button {
+        font-size: 0.6rem;
+        height: 33px;
+    }
+
+    .feedback-footnote {
+        font-size: 0.6em;
+}
+
+@media (max-width: 630px) {
+    .contacts-feedback {
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        padding-left: 10px;
+    }
+
+    .contacts-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contacts-categories {
+        display: flex;
+        margin: 45px 0 0 0;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .contacts-category {
+        text-align: center;
+        margin: 0;
+        width: 30%;
+    }
+
+    .contacts-icon {
+        background-size: 100%;
+        width: 25px;
+        height: 25px;
+        margin: 0;
+        position: absolute;
+    }
+
+    .icon-phone {
+        background-position-y: -2px;
+    }
+    
+    .icon-address,
+    .icon-mail {
+        background-position-y: -2px;
+        margin-left: 10px;
+    }
+
+    .contacts-title {
+        font-size: 0.7em;
+        margin-bottom: 10px;
+    }
+
+    .contacts-mail .contacts-title {
+        margin-left: -10px;
+    }
+
+    .contacts-item a {
+        min-width: 40%;
+        margin: 0 auto;
+    }
+
+    .feedback-field {
+        font-size: 0.6rem;
+    }
+
+    .field-usermessage {
+        font-size: 0.9rem;
+    }
+
+    .send-message-button {
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .contacts-categories {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contacts-category {
+        text-align: left;
+        margin: 0;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .contacts-icon {
+        background-size: 80%;        
+        background-position-y: 1px;
+        position: relative;
+        margin: 0;
+    }
+
+    .contacts-info {
+        width: 100%;
+    }
+
+    .contacts-category a {
+        font-size: 0.7rem;
+    }
+
+    .contacts-title {
+        font-size: 0.6em;
+        margin: 0 0 5px 0;
+    }
+
+    .contacts-mail .contacts-title {
+        margin: 0;
+    }
+
+    .contacts-item {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .contacts-item a {
+        min-width: 20%;
+        margin: 0;
+    }
+
+    .contacts-item a:last-child {
+        margin-right: 40%;
+    }
+
+    .form-fb {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feedback-field {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+    .send-message-button {
+        margin: 0 auto;
+        font-size: 0.5rem;
+        width: 100px;
+    }
+
+    .feedback-footnote {
+        margin: 10px auto 0 auto;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .send-message-button {
+        margin: 10px auto;
+        height: 25px;
+        width: 80px;
+    }
+}

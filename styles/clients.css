@@ -1,0 +1,135 @@
+.clients {
+    background-color: #F5F5F5;
+}
+
+.clients-content {
+    display: block;
+    text-align: center;
+}
+
+.clients-gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.clients-logo {
+    width: 15%;
+    height: 120px;
+    margin: 0 3px;
+}
+
+.clients-logo:hover {
+    cursor: not-allowed;
+}
+
+.clients-description {
+    margin: 4% 0;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.clients-developers {
+    font-size: 1.3rem;
+    font-family: sans-serif;
+}
+
+.clients-ap {
+    background: url("../imgs/bandlogo01.png") no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+.clients-cd {
+    background: url("../imgs/bandlogo04.png") no-repeat;
+    background-size: 115%;
+    background-position: center;
+}
+
+.clients-ds {
+    background: url("../imgs/bandlogo02.png") no-repeat;
+    background-size: 96%;
+    background-position: center;
+}
+
+.clients-d {
+    background: url("../imgs/bandlogo03.png") no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.clients-ia {
+    background: url("../imgs/bandlogo05.png") no-repeat;
+    background-size: 105%;
+    background-position: center;
+}
+
+@media (max-width: 800px) {
+    .clients-logo {
+        width: 18%;
+        height: 100px;
+        margin: 0 2px;
+    }
+
+    .clients-description {
+        margin-top: 3%;
+        font-size: 1rem;
+    }
+
+    .clients-developers {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 630px) {
+    .clients-logo {
+        width: 19%;
+        margin: 0 2px;
+    }
+
+    .clients-description {
+        margin: 20px 0;
+        font-size: 0.9rem;
+    }
+
+    .clients-developers {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .clients-logo {
+        width: 26%;
+        height: 65px;
+        margin: 0 2%;
+    }
+
+    .clients-description {
+        margin-top: 2%;
+        font-size:0.85rem;
+    }
+
+    .clients-developers {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .clients-logo {
+        width: 26%;
+        height: 50px;
+        margin: 0 2%;
+    }
+
+    .clients-description {
+        margin-top: 4%;
+        font-size:0.85rem;
+    }
+
+    .clients-developers {
+        font-size: 0.9rem;
+    }
+}

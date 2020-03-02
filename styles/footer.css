@@ -1,0 +1,27 @@
+.footer {
+    background-color: rgb(173, 11, 11);
+    color: rgb(255, 255, 255);
+}
+
+.footer-icons {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.footer-icons__pic {
+    display: block;
+    background: url("../imgs/star.png") no-repeat center;
+    height: 32px;
+    width: 32px;
+    background-size: 105%;
+    margin: 0 0.7%;
+}
+
+.footer .block-line {
+    background-color: white;
+}
+
+.footer .block-description {
+    font-size: 0.8rem;
+}
