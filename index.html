@@ -17,19 +17,23 @@
         
     </head>
     <body>
-        <header><a name="home"></a>
-            <div class="adaptive-width">
-                <img class="logo" src="imgs/logo.png" alt="logo">
-                <ul class="menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#works">Works</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#clients">Clients</a></li>
-                    <li><a href="#contacts">Contact</a></li>
-                </ul>
-            
+        <header id="home">
+            <div class="headerMenuWrapper">
+                <div class="adaptive-width">
+                    <img class="logo" src="imgs/logo.png" alt="logo">
+                    <ul class="menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#works">Works</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#clients">Clients</a></li>
+                        <li><a href="#contacts">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="adaptive-width">            
                 <h1 class="header-title">WELCOME TO STARTUP</h1>
                 <h2 class="header-description">Your Favourite Creative Agency Template</h2>
                 <div class="button-started">
@@ -37,8 +41,8 @@
                 </div>
             </div>
         </header>
-        <a name="services"></a>
-        <section class="services content-block">
+
+        <section id="services" class="services content-block">
             <div class="adaptive-width">
                 <h3 class="block-title">SERVICES</h3>
                 <hr class="block-line">
@@ -70,8 +74,8 @@
                 </div>
             </div>
         </section>
-        <a name="about"></a>
-        <section class="about content-block">
+        
+        <section id="about" class="about content-block">
             <div class="adaptive-width">
                 <h3 class="block-title">ABOUT US</h3>
                 <hr class="block-line">
@@ -111,76 +115,118 @@
                         </div>
                     </div>
                     <div class="about-gallery">
-                        <div class="about-developer">
-                            <div class="about-photo developer1"><a name="khalil"></a>
-                                <div class="photo-hover">
-                                    <div class="social-icons">
-                                        <a href="" class="social-fb icons"></a>
-                                        <a href="" class="social-tw icons"></a>
-                                        <a href="" class="social-g icons"></a>
-                                        <a href="" class="social-in icons"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="developer-name">
-                                <p>MD. KHALIL UDDIN</p>
-                                <p>Head of Ideas</p>
-                            </div>
+                        <div class="galleryLeftArrow galleryArrow">
+                            <div class="galleryArrowImageLeft"></div>
                         </div>
-                        <div class="about-developer">
-                            <div class="about-photo developer2">
-                                <div class="photo-hover">
-                                    <div class="social-icons">
-                                        <a href="" class="social-fb icons"></a>
-                                        <a href="" class="social-tw icons"></a>
-                                        <a href="" class="social-g icons"></a>
-                                        <a href="" class="social-in icons"></a>
+
+                        <div class="gallerySlider">
+
+                            <div class="about-developer">
+                                <div class="about-photo developer0"><a name="khalil"></a>
+                                    <div class="photo-hover">
+                                        <div class="social-icons">
+                                            <a href="" class="social-fb icons"></a>
+                                            <a href="" class="social-tw icons"></a>
+                                            <a href="" class="social-g icons"></a>
+                                            <a href="" class="social-in icons"></a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="developer-name">
-                                <p>RUBEL MIAH</p>
-                                <p>Lead WordPress Developer</p>
-                            </div>
-                        </div>
-                        <div class="about-developer">
-                            <div class="about-photo developer3">
-                                <div class="photo-hover">
-                                    <div class="social-icons">
-                                        <a href="" class="social-fb icons"></a>
-                                        <a href="" class="social-tw icons"></a>
-                                        <a href="" class="social-g icons"></a>
-                                        <a href="" class="social-in icons"></a>
-                                    </div>
+                                <div class="developer-name">
+                                    <p>SCORPION</p>
+                                    <p>Total Devastation</p>
                                 </div>
                             </div>
-                            <div class="developer-name">
-                                <p>SHAMIM MIA</p>
-                                <p>Sr. Web Developer</p>
-                            </div>
-                        </div>
-                        <div class="about-developer">
-                            <div class="about-photo developer4">
-                                <div class="photo-hover">
-                                    <div class="social-icons">
-                                        <a href="https://www.facebook.com/Tagak108" target="_blank" class="social-fb icons"></a>
-                                        <a href="https://www.last.fm/ru/user/Tagak" target="_blank" class="social-lf icons"></a>
-                                        <a href="" class="social-g icons"></a>
-                                        <a href="https://www.instagram.com/tagak_artem/ " target="_blank" class="social-in icons"></a>
+                            <div class="about-developer">
+                                <div class="about-photo developer1"><a name="khalil"></a>
+                                    <div class="photo-hover">
+                                        <div class="social-icons">
+                                            <a href="" class="social-fb icons"></a>
+                                            <a href="" class="social-tw icons"></a>
+                                            <a href="" class="social-g icons"></a>
+                                            <a href="" class="social-in icons"></a>
+                                        </div>
                                     </div>
                                 </div>
+                                <div class="developer-name">
+                                    <p>MD. KHALIL UDDIN</p>
+                                    <p>Head of Ideas</p>
+                                </div>
                             </div>
-                            <div class="developer-name">
-                                <p>JOHN DOE</p>
-                                <p>Front-end Developer</p>
+                            <div class="about-developer">
+                                <div class="about-photo developer2">
+                                    <div class="photo-hover">
+                                        <div class="social-icons">
+                                            <a href="" class="social-fb icons"></a>
+                                            <a href="" class="social-tw icons"></a>
+                                            <a href="" class="social-g icons"></a>
+                                            <a href="" class="social-in icons"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="developer-name">
+                                    <p>RUBEL MIAH</p>
+                                    <p>Lead WordPress Developer</p>
+                                </div>
                             </div>
+                            <div class="about-developer">
+                                <div class="about-photo developer3">
+                                    <div class="photo-hover">
+                                        <div class="social-icons">
+                                            <a href="" class="social-fb icons"></a>
+                                            <a href="" class="social-tw icons"></a>
+                                            <a href="" class="social-g icons"></a>
+                                            <a href="" class="social-in icons"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="developer-name">
+                                    <p>SHAMIM MIA</p>
+                                    <p>Sr. Web Developer</p>
+                                </div>
+                            </div>
+                            <div class="about-developer">
+                                <div class="about-photo developer4">
+                                    <div class="photo-hover">
+                                        <div class="social-icons">
+                                            <a href="https://www.facebook.com/Tagak108" target="_blank" class="social-fb icons"></a>
+                                            <a href="https://www.last.fm/ru/user/Tagak" target="_blank" class="social-lf icons"></a>
+                                            <a href="" class="social-g icons"></a>
+                                            <a href="https://www.instagram.com/tagak_artem/ " target="_blank" class="social-in icons"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="developer-name">
+                                    <p>JOHN DOE</p>
+                                    <p>Front-end Developer</p>
+                                </div>
+                            </div>
+                            <div class="about-developer">
+                                <div class="about-photo developer5"><a name="khalil"></a>
+                                    <div class="photo-hover">
+                                        <div class="social-icons">
+                                            <a href="" class="social-fb icons"></a>
+                                            <a href="" class="social-tw icons"></a>
+                                            <a href="" class="social-g icons"></a>
+                                            <a href="" class="social-in icons"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="developer-name">
+                                    <p>SUB-ZERO</p>
+                                    <p>Cold Death</p>
+                                </div>
+                            </div>
+
+                        <div class="galleryRightArrow galleryArrow">
+                            <div class="galleryArrowImageRight"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <a name="works"></a>
-        <section class="works content-block">
+
+        <section id="works" class="works content-block">
             <div class="adaptive-width">
                 <h3 class="block-title">LATEST WORKS</h3>
                 <hr class="block-line">
@@ -285,8 +331,8 @@
                 </div>
             </div>
         </section>
-        <a name="blog"></a>
-        <section class="blog content-block">
+
+        <section id="blog" class="blog content-block">
             <div class="adaptive-width">
                 <h3 class="block-title">RECENT BLOG POSTS</h3>
                 <hr class="block-line">
@@ -493,8 +539,8 @@
                 </div>
             </div>
         </section>
-        <a name="clients"></a>
-        <section class="clients content-block">
+    
+        <section id="clients" class="clients content-block">
             <div class="adaptive-width">
                 <div class="clients-content">
                     <div class="clients-gallery">
@@ -515,8 +561,8 @@
                 </div>
             </div>
         </section>
-        <a name="contacts"></a>
-        <section class="contacts content-block">
+        
+        <section id="contacts" class="contacts content-block">
             <div class="adaptive-width">
                 <h3 class="block-title">GET IN TOUCH</h3>
                 <hr class="block-line">
@@ -561,7 +607,7 @@
                     </div>
                     <div class="contacts-feedback">
                         <form class="form-fb" action="v ebenya" method="GET">
-                            <input class="feedback-field field-username" type="text" name="user-name" placeholder="YOUR NAME">
+                            <input class="feedback-field field-username" type="text" name="user-name" placeholder="YOUR NAME"/>
                             <input class="feedback-field field-usermail" type="text" name="user-mail" placeholder="YOUR E-MAIL">
                             <input class="feedback-field field-usersubj" type="text" name="user-subj" placeholder="YOUR SUBJECT">
                             <input class="feedback-field field-usercompany" type="text" name="user-company" placeholder="YOUR COMPANY">
@@ -573,6 +619,7 @@
                 </div>
             </div>
         </section>
+
         <footer class="footer content-block">
             <div class="footer-item adaptive-width">
                 <div class="footer-icons">
@@ -586,6 +633,6 @@
                 </p>
             </div>
         </footer>
-        <script src="scripts/blog.js"></script>
+        <script src="scripts/startup.js"></script>
     </body>
 </html>

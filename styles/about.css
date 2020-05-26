@@ -19,14 +19,64 @@
 }
 
 .about-gallery {
+    position: relative;
+}
+
+.about-gallery:hover .galleryArrow {
+    display: block;
+}
+
+.galleryArrow {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 3%;
+    z-index: 1;
+}
+
+.galleryArrowImageLeft,
+.galleryArrowImageRight {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 44%;
+    width: 100%;
+    height: 12%;
+    background: url('../imgs/arrow.png') no-repeat center;
+    background-size: 30%;
+    background-color: rgba(129, 127, 127, 0.555);
+}
+
+.galleryArrowImageLeft:hover,
+.galleryArrowImageRight:hover {
+    background-size: 35%;
+    cursor: pointer;
+    background-color: rgba(167, 12, 12, 0.616);
+}
+
+.galleryLeftArrow {
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.galleryRightArrow {
+    right: 0;
+}
+
+.gallerySlider {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    overflow: hidden;
 }
 
 .about-developer {
+    display: inline-block;
     text-align: center;
-    width: 23%;
+    min-width: 23%;
+    margin: 0 1.3%;
 }
 
 .about-photo {
@@ -41,7 +91,7 @@
     display: none;
     position: absolute;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.178);
     width: 100%;
     height: 100%;
     border-radius: 7px;;
@@ -54,12 +104,6 @@
 .about-photo.developer4:hover.developer4 {
     background: url("../imgs/dev04alt.jpg") no-repeat center top;
     background-size: 110%;
-}
-
-.about-photo:before { /* задаёт высоту фото пропорционально динамической ширине */
-    content:     "";
-    display:     block;
-    padding-top: 100%; 
 }
 
 .developer-name {
@@ -87,6 +131,14 @@
 
 .developer4 {
     background-image: url("../imgs/dev04.jpg");
+}
+
+.developer5 {
+    background-image: url("../imgs/dev05.jpg");
+}
+
+.developer0 {
+    background-image: url("../imgs/dev00.jpg");
 }
 
 .social-icons {
@@ -136,7 +188,7 @@
 .social-g:hover,
 .social-in:hover,
 .social-lf:hover {
-    background-color: rgb(173, 11, 11);
+    background-color: rgba(167, 20, 20, 0.671);
 }
 
 @media(max-width: 800px) {

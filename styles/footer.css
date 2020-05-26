@@ -25,3 +25,10 @@
 .footer .block-description {
     font-size: 0.8rem;
 }
+
+@media(max-width: 800px) {
+
+    .footer {
+        height: 350px;
+    }
+}

@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+    width: 100%;
+}
+
 h1 {
     font-size: 3rem;
 }
@@ -22,6 +26,7 @@ a {
 }
 
 .adaptive-width {
+    position: relative;
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
@@ -30,7 +35,7 @@ a {
 .content-block {
     display: block;
     color: dimgrey;
-    padding: 75px 0;
+    padding: 105px 0 75px 0;
 }
 
 .block-title {
